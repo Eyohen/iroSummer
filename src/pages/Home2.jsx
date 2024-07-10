@@ -45,9 +45,8 @@ const Home2 = () => {
       {/* <div className='flex flex-col md:flex-row md:gap-x-[200px] gap-y-[100px]'> */}
         <div className="flex flex-col md:flex-row md:gap-x-[200px] gap-y-[100px] items-center justify-center md:items-start">
         <div className="text-center md:text-left">
-        <p className='text-5xl font-bold '>JULY 2025</p>
-        <p className='max-w-[400px] mt-4 text-xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        <p className='text-5xl font-bold '>Welcome to a Boho chic summer</p>
+        <p className='max-w-[500px] mt-4 text-xl'>Experience summer with our exclusive collection, offering the best in style, comfort, and elegance. Dive into vibrant colors, airy fabrics, and chic designs for an unforgettable season.
          </p>
                </div>
 
@@ -65,8 +64,7 @@ const Home2 = () => {
 
 
 <p className='text-3xl font-medium text-center mt-9'>We were Inspired by the beauty of Nature</p>
-<p className='mt-2 text-lg text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-             sed do eiusmod tempor incididuntt.
+<p className='mt-2 text-lg text-center'>Step into free-spirited fashion with our Bohemian Summer Collection. Featuring earthy tones, flowing fabrics, and eclectic designs, it captures summer's wild and carefree energy.
          </p>
 
 
