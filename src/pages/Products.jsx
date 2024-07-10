@@ -1,10 +1,20 @@
 import React from 'react'
-import Footer from '../components/Footer';
 import Navbar from '../components/Navbar'
-import summer from '../assets/summer.jpg'
-import { MdHeight } from 'react-icons/md';
 import { Link, useNavigate } from 'react-router-dom';
 import { BsArrowLeftCircle } from "react-icons/bs";
+import highlowshirtdressyellow from '../assets/highlowshirtdressyellow.jpg'
+import adirepantslemon from '../assets/adirepantslemon.jpg'
+import scrubsandshortslemon from '../assets/scrubsandshortslemon.jpg'
+import scrubsandshortsblue from '../assets/scrubsandshortsblue.jpg'
+import bubashokotoyellow from '../assets/bubashokotoyellow.jpg'
+import adireshortlemon from '../assets/adireshortlemon.jpg'
+import adireshortsorange from '../assets/adireshortsorange.jpg'
+import adirepantsblue from '../assets/adirepantsblue.jpg'
+import adirepantsyellow from '../assets/adirepantsyellow.jpg'
+import Highlowshirtdressblue from '../assets/Highlowshirtdressblue.jpg'
+import highlowshirtdressorange from '../assets/highlowshirtdressorange.jpg'
+
+
 
 const Products = () => {
     const navigate = useNavigate()
@@ -19,11 +29,11 @@ const Products = () => {
 
         <Link to={'https://wa.me/2348185513597'}>
         <div className='border px-4 py-4 max-w-[320px]'>
-        <img src={summer} className='object-cover w-72 h-[180px]' />
-        <p className='font-semibold text-xl pt-2'>Black Summer dress</p>
+        <img src={highlowshirtdressyellow} className='object-cover w-72 h-[180px]' />
+        <p className='font-semibold text-xl pt-2'>High Low Shirt Dress (yellow)</p>
         <div className='flex justify-between'>
-        <p className='font-thin text-xl pt-2'>₦17000</p>
-        <p className='font-medium text-xl pt-2 text-green-500'>20 available</p>
+        <p className='font-thin text-xl pt-2'>₦55,000</p>
+        <p className='font-medium text-xl pt-2 text-green-500'>1 available</p>
         </div>
 
         <p className='text-orange-400'>Please click to make enquiries</p>
@@ -32,11 +42,11 @@ const Products = () => {
 
         <Link to={'https://wa.me/2348185513597'}>
         <div className='border px-4 py-4 max-w-[320px]'>
-        <img src={summer} className='object-cover w-72 h-[180px]' />
-        <p className='font-semibold text-xl pt-2'>Black Summer dress</p>
+        <img src={adirepantslemon} className='object-cover w-72 h-[180px]' />
+        <p className='font-semibold text-xl pt-2'>Adire pants (lemon)</p>
         <div className='flex justify-between'>
-        <p className='font-thin text-xl pt-2'>₦17000</p>
-        <p className='font-medium text-xl pt-2 text-green-500'>20 available</p>
+        <p className='font-thin text-xl pt-2'>₦45,000</p>
+        <p className='font-medium text-xl pt-2 text-green-500'>1 available</p>
         </div>
 
         <p className='text-orange-400'>Please click to make enquiries</p>
@@ -45,25 +55,26 @@ const Products = () => {
 
                 <Link to={'https://wa.me/2348185513597'}>
         <div className='border px-4 py-4 max-w-[320px]'>
-        <img src={summer} className='object-cover w-72 h-[180px]' />
-        <p className='font-semibold text-xl pt-2'>Black Summer dress</p>
+        <img src={scrubsandshortslemon} className='object-cover w-72 h-[180px]' />
+        <p className='font-semibold text-xl pt-2'>Scrubs and shorts (lemon)</p>
         <div className='flex justify-between'>
-        <p className='font-thin text-xl pt-2'>₦17000</p>
-        <p className='font-medium text-xl pt-2 text-green-500'>20 available</p>
+        <p className='font-thin text-xl pt-2'>₦50,000</p>
+        <p className='font-medium text-xl pt-2 text-green-500'>2 available</p>
         </div>
 
         <p className='text-orange-400'>Please click to make enquiries</p>
         </div>
         </Link>
+
 
         
         <Link to={'https://wa.me/2348185513597'}>
         <div className='border px-4 py-4 max-w-[320px]'>
-        <img src={summer} className='object-cover w-72 h-[180px]' />
-        <p className='font-semibold text-xl pt-2'>Black Summer dress</p>
+        <img src={scrubsandshortsblue} className='object-cover w-72 h-[180px]' />
+        <p className='font-semibold text-xl pt-2'>Scrubs and shorts (blue)</p>
         <div className='flex justify-between'>
-        <p className='font-thin text-xl pt-2'>₦17000</p>
-        <p className='font-medium text-xl pt-2 text-green-500'>20 available</p>
+        <p className='font-thin text-xl pt-2'>₦50,000</p>
+        <p className='font-medium text-xl pt-2 text-green-500'>1 available</p>
         </div>
 
         <p className='text-orange-400'>Please click to make enquiries</p>
@@ -72,11 +83,11 @@ const Products = () => {
 
         <Link to={'https://wa.me/2348185513597'}>
         <div className='border px-4 py-4 max-w-[320px]'>
-        <img src={summer} className='object-cover w-72 h-[180px]' />
-        <p className='font-semibold text-xl pt-2'>Black Summer dress</p>
+        <img src={bubashokotoyellow} className='object-cover w-72 h-[180px]' />
+        <p className='font-semibold text-xl pt-2'>Buba Shokoto (yellow) </p>
         <div className='flex justify-between'>
-        <p className='font-thin text-xl pt-2'>₦17000</p>
-        <p className='font-medium text-xl pt-2 text-green-500'>20 available</p>
+        <p className='font-thin text-xl pt-2'>₦60,000</p>
+        <p className='font-medium text-xl pt-2 text-green-500'>1 available</p>
         </div>
 
         <p className='text-orange-400'>Please click to make enquiries</p>
@@ -85,11 +96,11 @@ const Products = () => {
 
                 <Link to={'https://wa.me/2348185513597'}>
         <div className='border px-4 py-4 max-w-[320px]'>
-        <img src={summer} className='object-cover w-72 h-[180px]' />
-        <p className='font-semibold text-xl pt-2'>Black Summer dress</p>
+        <img src={adireshortlemon} className='object-cover w-72 h-[180px]' />
+        <p className='font-semibold text-xl pt-2'>Adire Shorts (yellow)</p>
         <div className='flex justify-between'>
-        <p className='font-thin text-xl pt-2'>₦17000</p>
-        <p className='font-medium text-xl pt-2 text-green-500'>20 available</p>
+        <p className='font-thin text-xl pt-2'>₦30,000</p>
+        <p className='font-medium text-xl pt-2 text-green-500'>1 available</p>
         </div>
 
         <p className='text-orange-400'>Please click to make enquiries</p>
@@ -99,11 +110,11 @@ const Products = () => {
         
         <Link to={'https://wa.me/2348185513597'}>
         <div className='border px-4 py-4 max-w-[320px]'>
-        <img src={summer} className='object-cover w-72 h-[180px]' />
-        <p className='font-semibold text-xl pt-2'>Black Summer dress</p>
+        <img src={adireshortsorange} className='object-cover w-72 h-[180px]' />
+        <p className='font-semibold text-xl pt-2'>Adire Shorts (orange)</p>
         <div className='flex justify-between'>
-        <p className='font-thin text-xl pt-2'>₦17000</p>
-        <p className='font-medium text-xl pt-2 text-green-500'>20 available</p>
+        <p className='font-thin text-xl pt-2'>₦30,000</p>
+        <p className='font-medium text-xl pt-2 text-green-500'>1 available</p>
         </div>
 
         <p className='text-orange-400'>Please click to make enquiries</p>
@@ -112,11 +123,11 @@ const Products = () => {
 
         <Link to={'https://wa.me/2348185513597'}>
         <div className='border px-4 py-4 max-w-[320px]'>
-        <img src={summer} className='object-cover w-72 h-[180px]' />
-        <p className='font-semibold text-xl pt-2'>Black Summer dress</p>
+        <img src={adirepantsblue} className='object-cover w-72 h-[180px]' />
+        <p className='font-semibold text-xl pt-2'>Adire pants (blue)</p>
         <div className='flex justify-between'>
-        <p className='font-thin text-xl pt-2'>₦17000</p>
-        <p className='font-medium text-xl pt-2 text-green-500'>20 available</p>
+        <p className='font-thin text-xl pt-2'>₦45,000</p>
+        <p className='font-medium text-xl pt-2 text-green-500'>1 available</p>
         </div>
 
         <p className='text-orange-400'>Please click to make enquiries</p>
@@ -125,11 +136,11 @@ const Products = () => {
 
                 <Link to={'https://wa.me/2348185513597'}>
         <div className='border px-4 py-4 max-w-[320px]'>
-        <img src={summer} className='object-cover w-72 h-[180px]' />
-        <p className='font-semibold text-xl pt-2'>Black Summer dress</p>
+        <img src={adirepantsyellow} className='object-cover w-72 h-[180px]' />
+        <p className='font-semibold text-xl pt-2'>Adire pants (yellow)</p>
         <div className='flex justify-between'>
-        <p className='font-thin text-xl pt-2'>₦17000</p>
-        <p className='font-medium text-xl pt-2 text-green-500'>20 available</p>
+        <p className='font-thin text-xl pt-2'>₦45,000</p>
+        <p className='font-medium text-xl pt-2 text-green-500'>1 available</p>
         </div>
 
         <p className='text-orange-400'>Please click to make enquiries</p>
@@ -139,11 +150,11 @@ const Products = () => {
         
         <Link to={'https://wa.me/2348185513597'}>
         <div className='border px-4 py-4 max-w-[320px]'>
-        <img src={summer} className='object-cover w-72 h-[180px]' />
-        <p className='font-semibold text-xl pt-2'>Black Summer dress</p>
+        <img src={Highlowshirtdressblue} className='object-cover w-72 h-[180px]' />
+        <p className='font-semibold text-xl pt-2'>High Low Shirt Dress (Blue)</p>
         <div className='flex justify-between'>
-        <p className='font-thin text-xl pt-2'>₦17000</p>
-        <p className='font-medium text-xl pt-2 text-green-500'>20 available</p>
+        <p className='font-thin text-xl pt-2'>₦55,000</p>
+        <p className='font-medium text-xl pt-2 text-green-500'>1 available</p>
         </div>
 
         <p className='text-orange-400'>Please click to make enquiries</p>
@@ -152,24 +163,11 @@ const Products = () => {
 
         <Link to={'https://wa.me/2348185513597'}>
         <div className='border px-4 py-4 max-w-[320px]'>
-        <img src={summer} className='object-cover w-72 h-[180px]' />
-        <p className='font-semibold text-xl pt-2'>Black Summer dress</p>
+        <img src={highlowshirtdressorange} className='object-cover w-72 h-[180px]' />
+        <p className='font-semibold text-xl pt-2'>High Low Shirt Dress (Orange)</p>
         <div className='flex justify-between'>
-        <p className='font-thin text-xl pt-2'>₦17000</p>
-        <p className='font-medium text-xl pt-2 text-green-500'>20 available</p>
-        </div>
-
-        <p className='text-orange-400'>Please click to make enquiries</p>
-        </div>
-        </Link>
-
-                <Link to={'https://wa.me/2348185513597'}>
-        <div className='border px-4 py-4 max-w-[320px]'>
-        <img src={summer} className='object-cover w-72 h-[180px]' />
-        <p className='font-semibold text-xl pt-2'>Black Summer dress</p>
-        <div className='flex justify-between'>
-        <p className='font-thin text-xl pt-2'>₦17000</p>
-        <p className='font-medium text-xl pt-2 text-green-500'>20 available</p>
+        <p className='font-thin text-xl pt-2'>₦55,000</p>
+        <p className='font-medium text-xl pt-2 text-green-500'>1 available</p>
         </div>
 
         <p className='text-orange-400'>Please click to make enquiries</p>
@@ -177,89 +175,15 @@ const Products = () => {
         </Link>
 
         
-        <Link to={'https://wa.me/2348185513597'}>
-        <div className='border px-4 py-4 max-w-[320px]'>
-        <img src={summer} className='object-cover w-72 h-[180px]' />
-        <p className='font-semibold text-xl pt-2'>Black Summer dress</p>
-        <div className='flex justify-between'>
-        <p className='font-thin text-xl pt-2'>₦17000</p>
-        <p className='font-medium text-xl pt-2 text-green-500'>20 available</p>
-        </div>
 
-        <p className='text-orange-400'>Please click to make enquiries</p>
-        </div>
-        </Link>
 
-        <Link to={'https://wa.me/2348185513597'}>
-        <div className='border px-4 py-4 max-w-[320px]'>
-        <img src={summer} className='object-cover w-72 h-[180px]' />
-        <p className='font-semibold text-xl pt-2'>Black Summer dress</p>
-        <div className='flex justify-between'>
-        <p className='font-thin text-xl pt-2'>₦17000</p>
-        <p className='font-medium text-xl pt-2 text-green-500'>20 available</p>
-        </div>
 
-        <p className='text-orange-400'>Please click to make enquiries</p>
-        </div>
-        </Link>
 
-                <Link to={'https://wa.me/2348185513597'}>
-        <div className='border px-4 py-4 max-w-[320px]'>
-        <img src={summer} className='object-cover w-72 h-[180px]' />
-        <p className='font-semibold text-xl pt-2'>Black Summer dress</p>
-        <div className='flex justify-between'>
-        <p className='font-thin text-xl pt-2'>₦17000</p>
-        <p className='font-medium text-xl pt-2 text-green-500'>20 available</p>
-        </div>
-
-        <p className='text-orange-400'>Please click to make enquiries</p>
-        </div>
-        </Link>
-
-        
-        <Link to={'https://wa.me/2348185513597'}>
-        <div className='border px-4 py-4 max-w-[320px]'>
-        <img src={summer} className='object-cover w-72 h-[180px]' />
-        <p className='font-semibold text-xl pt-2'>Black Summer dress</p>
-        <div className='flex justify-between'>
-        <p className='font-thin text-xl pt-2'>₦17000</p>
-        <p className='font-medium text-xl pt-2 text-green-500'>20 available</p>
-        </div>
-
-        <p className='text-orange-400'>Please click to make enquiries</p>
-        </div>
-        </Link>
-
-        <Link to={'https://wa.me/2348185513597'}>
-        <div className='border px-4 py-4 max-w-[320px]'>
-        <img src={summer} className='object-cover w-72 h-[180px]' />
-        <p className='font-semibold text-xl pt-2'>Black Summer dress</p>
-        <div className='flex justify-between'>
-        <p className='font-thin text-xl pt-2'>₦17000</p>
-        <p className='font-medium text-xl pt-2 text-green-500'>20 available</p>
-        </div>
-
-        <p className='text-orange-400'>Please click to make enquiries</p>
-        </div>
-        </Link>
-
-                <Link to={'https://wa.me/2348185513597'}>
-        <div className='border px-4 py-4 max-w-[320px]'>
-        <img src={summer} className='object-cover w-72 h-[180px]' />
-        <p className='font-semibold text-xl pt-2'>Black Summer dress</p>
-        <div className='flex justify-between'>
-        <p className='font-thin text-xl pt-2'>₦17000</p>
-        <p className='font-medium text-xl pt-2 text-green-500'>20 available</p>
-        </div>
-
-        <p className='text-orange-400'>Please click to make enquiries</p>
-        </div>
-        </Link>
 
         </div>
         
         
-        
+    <div className='mb-24'></div>
     </div>
   )
 }

@@ -4,6 +4,9 @@ import summer from '../assets/summer.jpg'
 import { MdHeight } from 'react-icons/md';
 import { Link } from 'react-router-dom';
 import Footer from '../components/Footer';
+import highlowshirtdressyellow from '../assets/highlowshirtdressyellow.jpg'
+import adirepantslemon from '../assets/adirepantslemon.jpg'
+import scrubsandshortslemon from '../assets/scrubsandshortslemon.jpg'
 
 
 
@@ -45,7 +48,7 @@ const Home2 = () => {
       {/* <div className='flex flex-col md:flex-row md:gap-x-[200px] gap-y-[100px]'> */}
         <div className="flex flex-col md:flex-row md:gap-x-[200px] gap-y-[100px] items-center justify-center md:items-start">
         <div className="text-center md:text-left">
-        <p className='text-5xl font-bold '>Welcome to a Boho chic summer</p>
+        <p className='text-5xl font-bold text-white md:text-black'>Welcome to a Boho chic summer</p>
         <p className='max-w-[500px] mt-4 text-xl'>Experience summer with our exclusive collection, offering the best in style, comfort, and elegance. Dive into vibrant colors, airy fabrics, and chic designs for an unforgettable season.
          </p>
                </div>
@@ -71,11 +74,11 @@ const Home2 = () => {
 <div className='flex flex-col md:flex-row justify-center md:gap-x-12 gap-y-9 mt-12 items-center'>
 <Link to={'https://wa.me/2348185513597'}>
         <div className='border px-4 py-4 max-w-[320px]'>
-        <img src={summer} className='object-cover w-72 h-[180px]' />
-        <p className='font-semibold text-xl pt-2'>Black Summer dress</p>
+        <img src={highlowshirtdressyellow} className='object-cover w-72 h-[180px]' />
+        <p className='font-semibold text-xl pt-2'>High Low Shirt Dress (yellow)</p>
         <div className='flex justify-between'>
-        <p className='font-thin text-xl pt-2'>₦17000</p>
-        <p className='font-medium text-xl pt-2 text-green-500'>20 available</p>
+        <p className='font-thin text-xl pt-2'>₦55,000</p>
+        <p className='font-medium text-xl pt-2 text-green-500'>1 available</p>
         </div>
 
         <p className='text-orange-400'>Please click to make enquiries</p>
@@ -84,11 +87,11 @@ const Home2 = () => {
 
         <Link to={'https://wa.me/2348185513597'}>
         <div className='border px-4 py-4 max-w-[320px]'>
-        <img src={summer} className='object-cover w-72 h-[180px]' />
-        <p className='font-semibold text-xl pt-2'>Black Summer dress</p>
+        <img src={adirepantslemon} className='object-cover w-72 h-[180px]' />
+        <p className='font-semibold text-xl pt-2'>Adire pants (lemon)</p>
         <div className='flex justify-between'>
-        <p className='font-thin text-xl pt-2'>₦17000</p>
-        <p className='font-medium text-xl pt-2 text-green-500'>20 available</p>
+        <p className='font-thin text-xl pt-2'>₦45,000</p>
+        <p className='font-medium text-xl pt-2 text-green-500'>1 available</p>
         </div>
 
         <p className='text-orange-400'>Please click to make enquiries</p>
@@ -97,11 +100,11 @@ const Home2 = () => {
 
                 <Link to={'https://wa.me/2348185513597'}>
         <div className='border px-4 py-4 max-w-[320px]'>
-        <img src={summer} className='object-cover w-72 h-[180px]' />
-        <p className='font-semibold text-xl pt-2'>Black Summer dress</p>
+        <img src={scrubsandshortslemon} className='object-cover w-72 h-[180px]' />
+        <p className='font-semibold text-xl pt-2'>Scrubs and shorts (lemon)</p>
         <div className='flex justify-between'>
-        <p className='font-thin text-xl pt-2'>₦17000</p>
-        <p className='font-medium text-xl pt-2 text-green-500'>20 available</p>
+        <p className='font-thin text-xl pt-2'>₦50000</p>
+        <p className='font-medium text-xl pt-2 text-green-500'>2 available</p>
         </div>
 
         <p className='text-orange-400'>Please click to make enquiries</p>
