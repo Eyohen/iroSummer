@@ -66,7 +66,7 @@ const Home2 = () => {
 
 <p className='text-3xl font-medium text-center mt-9'>We were Inspired by the beauty of Nature</p>
 <p className='mt-2 text-lg text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-             sed do eiusmod tempor incididunt.
+             sed do eiusmod tempor incididuntt.
          </p>
 
 
