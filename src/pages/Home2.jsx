@@ -71,11 +71,38 @@ const Home2 = () => {
 
 
 <div className='flex flex-col md:flex-row justify-center md:gap-x-12 gap-y-9 mt-12 items-center'>
-<Link to={'/productdetails'}><img src={summer} className='object-cover w-[320px] h-[320px]' /></Link>
+<Link to={'https://wa.me/2348064203690'}>
+        <div className='border px-4 py-4 max-w-[320px]'>
+        <img src={summer} className='object-cover w-72 h-[180px]' />
+        <p className='font-semibold text-xl pt-2'>Black Summer dress</p>
+        <div className='flex justify-between'>
+        <p className='font-thin text-xl pt-2'>₦17000</p>
+        <p className='font-medium text-xl pt-2 text-green-500'>20 available</p>
+        </div>
+        </div>
+        </Link>
 
-<Link to={'/productdetails'}><img src={summer} className='object-cover w-[320px] h-[320px]' /></Link>
+        <Link to={'https://wa.me/2348064203690'}>
+        <div className='border px-4 py-4 max-w-[320px]'>
+        <img src={summer} className='object-cover w-72 h-[180px]' />
+        <p className='font-semibold text-xl pt-2'>Black Summer dress</p>
+        <div className='flex justify-between'>
+        <p className='font-thin text-xl pt-2'>₦17000</p>
+        <p className='font-medium text-xl pt-2 text-green-500'>20 available</p>
+        </div>
+        </div>
+        </Link>
 
-<Link to={'/productdetails'}><img src={summer} className='object-cover w-[320px] h-[320px]' /></Link>
+        <Link to={'https://wa.me/2348064203690'}>
+        <div className='border px-4 py-4 max-w-[320px]'>
+        <img src={summer} className='object-cover w-72 h-[180px]' />
+        <p className='font-semibold text-xl pt-2'>Black Summer dress</p>
+        <div className='flex justify-between'>
+        <p className='font-thin text-xl pt-2'>₦17000</p>
+        <p className='font-medium text-xl pt-2 text-green-500'>20 available</p>
+        </div>
+        </div>
+        </Link>
 </div>
 
 <div className='mb-12'></div>
