@@ -47,13 +47,7 @@ const Footer = () => {
             {/* <p className="text-gray-500 mt-4">
               Made with 💖 by The Coding Journey
             </p> */}
-            <a
-              href="https://www.youtube.com/channel/UC1H-a1MKEFXRiFlGNLcy7gQ"
-              target="_blank"
-              className="inline-block bg-primary/90 text-white py-2 px-4 mt-4 text-sm rounded-full"
-            >
-              Visit our YouTube Channel
-            </a>
+          
           </div>
 
           {/* Footer links */}
@@ -76,7 +70,7 @@ const Footer = () => {
               </ul>
             </div>
             {/* second col links */}
-            <div className="py-8 px-4">
+            {/* <div className="py-8 px-4">
               <h1 className="text-xl font-bold sm:text-left mb-3">
                 Quick Links
               </h1>
@@ -92,7 +86,7 @@ const Footer = () => {
                   </li>
                 ))}
               </ul>
-            </div>
+            </div> */}
 
             {/* Company Address */}
             <div className="py-8 px-4 col-span-2 sm:col-auto">
