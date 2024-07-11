@@ -49,16 +49,18 @@ const Home2 = () => {
       {/* <div className='flex flex-col md:flex-row md:gap-x-[200px] gap-y-[100px]'> */}
         <div className="flex flex-col md:flex-row md:gap-x-[200px] gap-y-[100px] items-center justify-center md:items-start">
         <div className="text-center md:text-left">
-        <p className='text-5xl font-bold text-white md:text-black pt-[230px] md:pt-0'>Welcome to a Boho chic summer</p>
-        <p className='max-w-[500px] mt-4 text-xl'>Experience comfort with our creatively curated designs.
-         </p>
+
+      <div className='md:pt-0 bg-gray-700 bg-opacity-50 md:mt-0 mt-[280px] px-4 rounded-md py-4'>
+        <p className='text-5xl font-bold text-white '>Welcome to a Boho chic summer</p>
+        <p className='mt-3 text-xl text-white text-center'>Experience comfort with our creatively curated designs. </p>
+        </div>
                </div>
 
         <div className='text-center'>
             {/* <p className='text-5xl font-bold'>SALE</p> */}
-            <p className='text-5xl font-medium mt-4'>New Summer Collection</p>
+            <p className='text-5xl font-medium mt-[-36px] md:mt-4'>New Summer Collection</p>
             
-        <Link to={'/products'}><button className='bg-black  px-9 py-1 rounded-full text-white mt-4 text-lg'>See more</button></Link>
+        <Link to={'/products'}><button className='bg-black  px-9 py-1 rounded-full text-white mt-2 md:mt-4 text-lg'>See more</button></Link>
         </div>
 
       </div>
