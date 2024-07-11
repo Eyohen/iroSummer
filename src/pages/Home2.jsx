@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import summer from '../assets/summer.jpg'
+
+import heroimage from '../assets/heroimage.jpg'
 import { MdHeight } from 'react-icons/md';
 import { Link } from 'react-router-dom';
 import Footer from '../components/Footer';
@@ -15,7 +16,7 @@ const backgroundImageStyle = {
     width: '100%',
     // height: '100vh',
     height: '650px',
-    backgroundImage: `url(${summer})`, // Replace with your image path
+    backgroundImage: `url(${heroimage})`, // Replace with your image path
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     display: 'flex',
@@ -55,7 +56,7 @@ const Home2 = () => {
 
         <div className='text-center'>
             <p className='text-5xl font-bold'>SALE</p>
-            <p className='text-5xl font-medium mt-4'>New Collection</p>
+            <p className='text-5xl font-medium mt-4'>New Summer Collection</p>
             
         <Link to={'/products'}><button className='bg-black  px-9 py-1 rounded-full text-white mt-4 text-lg'>See more</button></Link>
         </div>
@@ -66,7 +67,7 @@ const Home2 = () => {
 
 
 
-<p className='text-3xl font-medium text-center mt-9'>We were Inspired by the beauty of Nature</p>
+<p className='text-3xl font-medium text-center mt-9'>We were Inspired by the beauty of Nature  (Sway to the Rhythms of Summer)</p>
 <p className='mt-2 text-lg text-center'>Step into free-spirited fashion with our Bohemian Summer Collection. Featuring earthy tones, flowing fabrics, and eclectic designs, it captures summer's wild and carefree energy.
          </p>
 
