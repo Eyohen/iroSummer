@@ -91,7 +91,7 @@ const Home2 = () => {
         <Link to={'https://wa.me/2348185513597'}>
         <div className='border px-4 py-4 max-w-[320px]'>
         <img src={adirepantslemon} className='object-cover w-72 h-[280px]' />
-        <p className='font-semibold text-xl pt-2'>Adire pants (lemon)</p>
+        <p className='font-semibold text-xl pt-2'>Adire pants (lime)</p>
         <div className='flex justify-between'>
         <p className='font-thin text-xl pt-2'>₦45,000</p>
         <p className='font-medium text-xl pt-2 text-green-500'>1 available</p>
@@ -104,7 +104,7 @@ const Home2 = () => {
                 <Link to={'https://wa.me/2348185513597'}>
         <div className='border px-4 py-4 max-w-[320px]'>
         <img src={scrubsandshortslemon} className='object-cover w-72 h-[280px]' />
-        <p className='font-semibold text-xl pt-2'>Scrubs and shorts (lemon)</p>
+        <p className='font-semibold text-xl pt-2'>Scrubs and shorts (lime)</p>
         <div className='flex justify-between'>
         <p className='font-thin text-xl pt-2'>₦50000</p>
         <p className='font-medium text-xl pt-2 text-green-500'>2 available</p>
