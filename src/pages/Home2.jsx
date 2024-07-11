@@ -15,7 +15,7 @@ const backgroundImageStyle = {
     position: 'relative',
     width: '100%',
     // height: '100vh',
-    height: '650px',
+    height: '750px',
     backgroundImage: `url(${heroimage2})`, // Replace with your image path
     backgroundSize: 'cover',
     backgroundPosition: 'center',
@@ -49,7 +49,7 @@ const Home2 = () => {
       {/* <div className='flex flex-col md:flex-row md:gap-x-[200px] gap-y-[100px]'> */}
         <div className="flex flex-col md:flex-row md:gap-x-[200px] gap-y-[100px] items-center justify-center md:items-start">
         <div className="text-center md:text-left">
-        <p className='text-5xl font-bold text-white md:text-black'>Welcome to a Boho chic summer</p>
+        <p className='text-5xl font-bold text-white md:text-black pt-[230px] md:pt-0'>Welcome to a Boho chic summer</p>
         <p className='max-w-[500px] mt-4 text-xl'>Experience comfort with our creatively curated designs.
          </p>
                </div>
@@ -75,7 +75,7 @@ const Home2 = () => {
 <div className='flex flex-col md:flex-row justify-center md:gap-x-12 gap-y-9 mt-12 items-center'>
 <Link to={'https://wa.me/2348185513597'}>
         <div className='border px-4 py-4 max-w-[320px]'>
-        <img src={highlowshirtdressyellow} className='object-cover w-72 h-[180px]' />
+        <img src={highlowshirtdressyellow} className='object-cover w-72 h-[280px]' />
         <p className='font-semibold text-xl pt-2'>High Low Shirt Dress (yellow)</p>
         <div className='flex justify-between'>
         <p className='font-thin text-xl pt-2'>₦55,000</p>
@@ -88,7 +88,7 @@ const Home2 = () => {
 
         <Link to={'https://wa.me/2348185513597'}>
         <div className='border px-4 py-4 max-w-[320px]'>
-        <img src={adirepantslemon} className='object-cover w-72 h-[180px]' />
+        <img src={adirepantslemon} className='object-cover w-72 h-[280px]' />
         <p className='font-semibold text-xl pt-2'>Adire pants (lemon)</p>
         <div className='flex justify-between'>
         <p className='font-thin text-xl pt-2'>₦45,000</p>
@@ -101,7 +101,7 @@ const Home2 = () => {
 
                 <Link to={'https://wa.me/2348185513597'}>
         <div className='border px-4 py-4 max-w-[320px]'>
-        <img src={scrubsandshortslemon} className='object-cover w-72 h-[180px]' />
+        <img src={scrubsandshortslemon} className='object-cover w-72 h-[280px]' />
         <p className='font-semibold text-xl pt-2'>Scrubs and shorts (lemon)</p>
         <div className='flex justify-between'>
         <p className='font-thin text-xl pt-2'>₦50000</p>

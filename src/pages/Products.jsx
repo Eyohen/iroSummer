@@ -29,7 +29,7 @@ const Products = () => {
 
         <Link to={'https://wa.me/2348185513597'}>
         <div className='border px-4 py-4 max-w-[320px]'>
-        <img src={highlowshirtdressyellow} className='object-cover w-72 h-[180px]' />
+        <img src={highlowshirtdressyellow} className='object-cover w-72 h-[280px]' />
         <p className='font-semibold text-xl pt-2'>High Low Shirt Dress (yellow)</p>
         <div className='flex justify-between'>
         <p className='font-thin text-xl pt-2'>₦55,000</p>
@@ -42,7 +42,7 @@ const Products = () => {
 
         <Link to={'https://wa.me/2348185513597'}>
         <div className='border px-4 py-4 max-w-[320px]'>
-        <img src={adirepantslemon} className='object-cover w-72 h-[180px]' />
+        <img src={adirepantslemon} className='object-cover w-72 h-[280px]' />
         <p className='font-semibold text-xl pt-2'>Adire pants (lemon)</p>
         <div className='flex justify-between'>
         <p className='font-thin text-xl pt-2'>₦45,000</p>
@@ -55,7 +55,7 @@ const Products = () => {
 
                 <Link to={'https://wa.me/2348185513597'}>
         <div className='border px-4 py-4 max-w-[320px]'>
-        <img src={scrubsandshortslemon} className='object-cover w-72 h-[180px]' />
+        <img src={scrubsandshortslemon} className='object-cover w-72 h-[280px]' />
         <p className='font-semibold text-xl pt-2'>Scrubs and shorts (lemon)</p>
         <div className='flex justify-between'>
         <p className='font-thin text-xl pt-2'>₦50,000</p>
@@ -70,7 +70,7 @@ const Products = () => {
         
         <Link to={'https://wa.me/2348185513597'}>
         <div className='border px-4 py-4 max-w-[320px]'>
-        <img src={scrubsandshortsblue} className='object-cover w-72 h-[180px]' />
+        <img src={scrubsandshortsblue} className='object-cover w-72 h-[280px]' />
         <p className='font-semibold text-xl pt-2'>Scrubs and shorts (blue)</p>
         <div className='flex justify-between'>
         <p className='font-thin text-xl pt-2'>₦50,000</p>
@@ -83,7 +83,7 @@ const Products = () => {
 
         <Link to={'https://wa.me/2348185513597'}>
         <div className='border px-4 py-4 max-w-[320px]'>
-        <img src={bubashokotoyellow} className='object-cover w-72 h-[180px]' />
+        <img src={bubashokotoyellow} className='object-cover w-72 h-[280px]' />
         <p className='font-semibold text-xl pt-2'>Buba Shokoto (yellow) </p>
         <div className='flex justify-between'>
         <p className='font-thin text-xl pt-2'>₦60,000</p>
@@ -96,7 +96,7 @@ const Products = () => {
 
                 <Link to={'https://wa.me/2348185513597'}>
         <div className='border px-4 py-4 max-w-[320px]'>
-        <img src={adireshortlemon} className='object-cover w-72 h-[180px]' />
+        <img src={adireshortlemon} className='object-cover w-72 h-[280px]' />
         <p className='font-semibold text-xl pt-2'>Adire Shorts (yellow)</p>
         <div className='flex justify-between'>
         <p className='font-thin text-xl pt-2'>₦30,000</p>
@@ -110,7 +110,7 @@ const Products = () => {
         
         <Link to={'https://wa.me/2348185513597'}>
         <div className='border px-4 py-4 max-w-[320px]'>
-        <img src={adireshortsorange} className='object-cover w-72 h-[180px]' />
+        <img src={adireshortsorange} className='object-cover w-72 h-[280px]' />
         <p className='font-semibold text-xl pt-2'>Adire Shorts (orange)</p>
         <div className='flex justify-between'>
         <p className='font-thin text-xl pt-2'>₦30,000</p>
@@ -123,7 +123,7 @@ const Products = () => {
 
         <Link to={'https://wa.me/2348185513597'}>
         <div className='border px-4 py-4 max-w-[320px]'>
-        <img src={adirepantsblue} className='object-cover w-72 h-[180px]' />
+        <img src={adirepantsblue} className='object-cover w-72 h-[280px]' />
         <p className='font-semibold text-xl pt-2'>Adire pants (blue)</p>
         <div className='flex justify-between'>
         <p className='font-thin text-xl pt-2'>₦45,000</p>
@@ -136,7 +136,7 @@ const Products = () => {
 
                 <Link to={'https://wa.me/2348185513597'}>
         <div className='border px-4 py-4 max-w-[320px]'>
-        <img src={adirepantsyellow} className='object-cover w-72 h-[180px]' />
+        <img src={adirepantsyellow} className='object-cover w-72 h-[280px]' />
         <p className='font-semibold text-xl pt-2'>Adire pants (yellow)</p>
         <div className='flex justify-between'>
         <p className='font-thin text-xl pt-2'>₦45,000</p>
@@ -150,7 +150,7 @@ const Products = () => {
         
         <Link to={'https://wa.me/2348185513597'}>
         <div className='border px-4 py-4 max-w-[320px]'>
-        <img src={Highlowshirtdressblue} className='object-cover w-72 h-[180px]' />
+        <img src={Highlowshirtdressblue} className='object-cover w-72 h-[280px]' />
         <p className='font-semibold text-xl pt-2'>High Low Shirt Dress (Blue)</p>
         <div className='flex justify-between'>
         <p className='font-thin text-xl pt-2'>₦55,000</p>
@@ -163,7 +163,7 @@ const Products = () => {
 
         <Link to={'https://wa.me/2348185513597'}>
         <div className='border px-4 py-4 max-w-[320px]'>
-        <img src={highlowshirtdressorange} className='object-cover w-72 h-[180px]' />
+        <img src={highlowshirtdressorange} className='object-cover w-72 h-[280px]' />
         <p className='font-semibold text-xl pt-2'>High Low Shirt Dress (Orange)</p>
         <div className='flex justify-between'>
         <p className='font-thin text-xl pt-2'>₦55,000</p>
