@@ -42,8 +42,7 @@ const Footer = () => {
           IROLAGOS
             </a>
             <p className="text-gray-600 dark:text-white/70  lg:pr-24 pt-3">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores
-              alias cum
+            Welcome to Iro Lagos, where tradition meets innovation in fashion. Our curated collection reimagines Iro and Buba with a modern twist, alongside inspired home decorations.
             </p>
             {/* <p className="text-gray-500 mt-4">
               Made with 💖 by The Coding Journey

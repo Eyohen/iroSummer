@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 
-import heroimage from '../assets/heroimage.jpg'
+import heroimage2 from '../assets/heroimage2.jpg'
 import { MdHeight } from 'react-icons/md';
 import { Link } from 'react-router-dom';
 import Footer from '../components/Footer';
@@ -16,7 +16,7 @@ const backgroundImageStyle = {
     width: '100%',
     // height: '100vh',
     height: '650px',
-    backgroundImage: `url(${heroimage})`, // Replace with your image path
+    backgroundImage: `url(${heroimage2})`, // Replace with your image path
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     display: 'flex',
@@ -55,7 +55,7 @@ const Home2 = () => {
                </div>
 
         <div className='text-center'>
-            <p className='text-5xl font-bold'>SALE</p>
+            {/* <p className='text-5xl font-bold'>SALE</p> */}
             <p className='text-5xl font-medium mt-4'>New Summer Collection</p>
             
         <Link to={'/products'}><button className='bg-black  px-9 py-1 rounded-full text-white mt-4 text-lg'>See more</button></Link>

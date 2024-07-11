@@ -5,14 +5,17 @@ import { Link } from 'react-router-dom'
 import { RxPerson } from "react-icons/rx";
 import { IoMenuOutline } from "react-icons/io5";
 import { IoCloseOutline } from "react-icons/io5";
+import logo from '../assets/logo.jpg';
+
 
 const Navbar = () => {
   return (
     <div>
         <div className='flex items-center justify-between px-4 md:px-24'>
 
-        <div className='flex gap-x-12 items-center py-4'>
-        <p className='text-red-500 text-3xl font-semibold'>IROLAGOS</p>
+        <div className='flex gap-x-12 items-center py-1'>
+        {/* <p className='text-red-500 text-3xl font-semibold'>IROLAGOS</p> */}
+        <img src={logo} className='w-[50px] object-cover' />
         <Link to={'/'}><p className='text-lg font-medium text-gray-500 hidden md:block'>Home</p></Link>
         <Link to={'/products'}><p className='text-lg font-medium text-gray-500 hidden md:block'>Products</p></Link>
         {/* <p className='text-lg font-medium text-gray-500 hidden md:block'>About</p>
