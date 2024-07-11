@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 
-import heroimage2 from '../assets/heroimage2.jpg'
+import newhero from '../assets/newhero.jpg'
 import { MdHeight } from 'react-icons/md';
 import { Link } from 'react-router-dom';
 import Footer from '../components/Footer';
@@ -16,7 +16,7 @@ const backgroundImageStyle = {
     width: '100%',
     // height: '100vh',
     height: '750px',
-    backgroundImage: `url(${heroimage2})`, // Replace with your image path
+    backgroundImage: `url(${newhero})`, // Replace with your image path
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     display: 'flex',
@@ -50,7 +50,7 @@ const Home2 = () => {
         <div className="flex flex-col md:flex-row md:gap-x-[200px] gap-y-[100px] items-center justify-center md:items-start">
         <div className="text-center md:text-left">
 
-      <div className='md:pt-0 bg-gray-700 bg-opacity-50 md:mt-0 mt-[280px] px-4 rounded-md py-4'>
+      <div className='md:pt-0 bg-gray-700 bg-opacity-50 md:mt-0 mt-[150px] px-4 rounded-md py-4'>
         <p className='text-5xl font-bold text-white '>Welcome to a Boho chic summer</p>
         <p className='mt-3 text-xl text-white text-center'>Experience comfort with our creatively curated designs. </p>
         </div>
