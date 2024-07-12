@@ -47,7 +47,7 @@ const Home2 = () => {
       {/* <div style={textOverlayStyle}> */}
 
       {/* <div className='flex flex-col md:flex-row md:gap-x-[200px] gap-y-[100px]'> */}
-        <div className="flex flex-col md:flex-row md:gap-x-[200px] gap-y-[100px] items-center justify-center md:items-start">
+        <div className="flex flex-col md:flex-row md:gap-x-[150px] gap-y-[100px] items-center justify-center md:items-start">
         <div className="text-center md:text-left">
 
       <div className='md:pt-0 bg-gray-700 bg-opacity-50 md:mt-0 mt-[150px] px-4 rounded-md py-4'>
