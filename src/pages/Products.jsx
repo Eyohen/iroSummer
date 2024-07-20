@@ -14,7 +14,6 @@ import adirepantsyellow from '../assets/adirepantsyellow.jpg'
 import Highlowshirtdressblue from '../assets/Highlowshirtdressblue.jpg'
 import highlowshirtdressorange from '../assets/highlowshirtdressorange.jpg'
 
-
 import freeDressOneHand from '../assets/FreeDressOneHandMulti-colored.jpg'
 import chiffonStreetDressBlueBlack from '../assets/ChiffonStreetDressBlue&Black.jpg'
 import chiffonStreetDressPinkBlack from '../assets/ChiffonStreetDressPink&Black.jpg'
@@ -24,6 +23,11 @@ import openBackDressGreen from '../assets/OpenBackDressGreen.jpg'
 import openBackDressBlue from '../assets/OpenBackDressBlue.jpg'
 import flowerAdireDress from '../assets/FlowerAdireDressMulti-colored.jpg'
 
+
+import streetDressOrange from '../assets/StreetDressOrange.jpg'
+import streetDressGreen from '../assets/StreetDressGreen.jpg'
+import streetDressBlue from '../assets/StreetDressBlue.jpg'
+import streetDressYellow from '../assets/StreetDressYellow.jpg'
 
 
 
@@ -290,6 +294,61 @@ const Products = () => {
         <p className='text-orange-400'>Please click to make enquiries</p>
         </div>
         </Link>
+
+        
+        <Link to={'https://wa.me/2348185513597'}>
+        <div className='border px-4 py-4 max-w-[320px]'>
+        <img src={streetDressBlue} className='object-cover w-72 h-[345px]' />
+        <p className='font-semibold text-xl pt-2'>Street Dress (Blue)</p>
+        <div className='flex justify-between'>
+        <p className='font-thin text-xl pt-2'>₦85,000</p>
+        <p className='font-medium text-xl pt-2 text-green-500'>3 available</p>
+        </div>
+
+        <p className='text-orange-400'>Please click to make enquiries</p>
+        </div>
+        </Link>
+
+        
+        <Link to={'https://wa.me/2348185513597'}>
+        <div className='border px-4 py-4 max-w-[320px]'>
+        <img src={streetDressGreen} className='object-cover w-72 h-[345px]' />
+        <p className='font-semibold text-xl pt-2'>Street Dress (Green)</p>
+        <div className='flex justify-between'>
+        <p className='font-thin text-xl pt-2'>₦85,000</p>
+        <p className='font-medium text-xl pt-2 text-green-500'>3 available</p>
+        </div>
+
+        <p className='text-orange-400'>Please click to make enquiries</p>
+        </div>
+        </Link>
+
+        <Link to={'https://wa.me/2348185513597'}>
+        <div className='border px-4 py-4 max-w-[320px]'>
+        <img src={streetDressOrange} className='object-cover w-72 h-[345px]' />
+        <p className='font-semibold text-xl pt-2'>Street Dress (Orange)</p>
+        <div className='flex justify-between'>
+        <p className='font-thin text-xl pt-2'>₦85,000</p>
+        <p className='font-medium text-xl pt-2 text-green-500'>3 available</p>
+        </div>
+
+        <p className='text-orange-400'>Please click to make enquiries</p>
+        </div>
+        </Link>
+
+        <Link to={'https://wa.me/2348185513597'}>
+        <div className='border px-4 py-4 max-w-[320px]'>
+        <img src={streetDressYellow} className='object-cover w-72 h-[345px]' />
+        <p className='font-semibold text-xl pt-2'>Street Dress (Yellow)</p>
+        <div className='flex justify-between'>
+        <p className='font-thin text-xl pt-2'>₦85,000</p>
+        <p className='font-medium text-xl pt-2 text-green-500'>3 available</p>
+        </div>
+
+        <p className='text-orange-400'>Please click to make enquiries</p>
+        </div>
+        </Link>
+
 
         
 
